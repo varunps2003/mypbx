@@ -1,6 +1,6 @@
 <?php
 
-printf( "<h2>%s</h2>", dgettext("welcome page", "Welcome to IssabelPBX.") );
+printf( "<h2>%s</h2>", dgettext("welcome page", "Welcome to CryptoVoIPPBX.") );
 	
 $notify =& notifications::create($db);
 $items = $notify->list_all(true);
@@ -34,7 +34,7 @@ if (count($items)) {
 }
 
 
-printf( "<p>%s</p>"  , dgettext("welcome page", "If you're new to IssabelPBX, Welcome. Here are some quick instructions to get you started") );
+printf( "<p>%s</p>"  , dgettext("welcome page", "If you're new to CryptoVoIPPBX, Welcome. Here are some quick instructions to get you started") );
 
 echo "<p>";
 printf( dgettext("welcome page", 
@@ -64,10 +64,10 @@ echo "</p>\n";
 
 echo "<p>";
 printf( dgettext( "welcome page",
-"There is also a community based <a href='%s' target='_new'>IssabelPBX Web Forum</a> where you can post
+"There is also a community based <a href='%s' target='_new'>CryptoVoIPPBX Web Forum</a> where you can post
 questions and search for answers for any problems you may be having."),
-"http://forums.issabel.org"  );
+"http://crytovoip.in"  );
 echo "</p>\n";
 
-print( "<p>" . _("We hope you enjoy using IssabelPBX!") . "</p>\n" );
+print( "<p>" . _("We hope you enjoy using CryptoVoIPPBX!") . "</p>\n" );
 ?>

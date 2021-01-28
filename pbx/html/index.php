@@ -138,7 +138,7 @@ if(isset($_POST['input_code'])) {
         $smarty->assign("WEBPATH", '');
         $smarty->assign("SUBMIT", _tr('Submit'));
         $smarty->assign("PAGE_NAME", _tr('Two Factor Authentication'));
-        $smarty->assign("WELCOME", _tr('Welcome to Issabel'));
+        $smarty->assign("WELCOME", _tr('Welcome to CryptoVoIP'));
         $smarty->assign("CODE", _tr('Code'));
         $smarty->assign("ISSABEL_LICENSED", _tr("is licensed under"));
         $smarty->assign("LOGIN_COLOR_1", $color1);
@@ -257,7 +257,7 @@ if (isset($_SESSION['issabel_user']) &&
     $smarty->assign("MSG_SAVE_NOTE", _tr("Saving Note"));
     $smarty->assign("MSG_GET_NOTE", _tr("Loading Note"));
     $smarty->assign("LBL_NO_STICKY", _tr("Click here to leave a note."));
-    $smarty->assign("ABOUT_ISSABEL", _tr('About Issabel')." ".$arrConf['issabel_version']);
+    $smarty->assign("ABOUT_ISSABEL", _tr('About CryptoVoIP')." ".$arrConf['issabel_version']);
 
     // notifications
     $pNot = new paloNotification($pdbACL);
@@ -376,7 +376,7 @@ if (isset($_SESSION['issabel_user']) &&
         $smarty->assign("THEMENAME", $arrConf['mainTheme']);
         $smarty->assign("currentyear",date("Y"));
         $smarty->assign("PAGE_NAME", _tr('Login page'));
-        $smarty->assign("WELCOME", _tr('Welcome to Issabel'));
+        $smarty->assign("WELCOME", _tr('Welcome to CryptoVoIP'));
         $smarty->assign("ENTER_USER_PASSWORD", _tr('Please enter your username and password'));
         $smarty->assign("USERNAME", _tr('Username'));
         $smarty->assign("PASSWORD", _tr('Password'));

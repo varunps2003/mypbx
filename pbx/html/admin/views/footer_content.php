@@ -22,10 +22,10 @@ $html .= '<a target="_blank" href="'
 */
 //text
 $html .= '<span class="footer-float-left" id="footer_text">';
-$html .= '<a href="http://www.issabel.org" target="_blank">IssabelPBX</a> ' . br();
-$html .= _('IssabelPBX') . ' ' . $version . ' ' . _('is licensed under the')
+/*$html .= '<a href="http://www.cryptovoip.in" target="_blank">CryptoVoIPPBX</a> ' . br();
+$html .= _('CryptoVoIPPBX') . ' ' . $version . ' ' . _('is licensed under the')
 		. '<a href="http://www.gnu.org/copyleft/gpl.html" target="_blank"> GPL</a>' . br();
-$html .= '<a href="http://www.issabel.org/copyright.html" target="_blank">Copyright&copy; 2004-'.date('Y',time()).'</a>';
+$html .= '<a href="http://www.issabel.org/copyright.html" target="_blank">Copyright&copy; 2004-'.date('Y',time()).'</a>';*/
 
 //module license
 if (!empty($active_modules[$module_name]['license'])) {

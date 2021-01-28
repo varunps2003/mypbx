@@ -35,7 +35,7 @@ $title         = isset($content['title'])?$content['title']:"";
 
 <html>
 <head>
-<title>Issabel - <?php echo $title; ?></title>
+<title>CryptoVoIP - <?php echo $title; ?></title>
 <link rel="stylesheet" href="<?php echo $theme; ?>/styles.css">
 </head>
 
@@ -43,7 +43,7 @@ $title         = isset($content['title'])?$content['title']:"";
   <table cellspacing="0" cellpadding="0" width="<?php echo $size;?>" border="0" class="menulogo2" height="74">
     <tr>
        <td class="menulogo" valign="top">
-           <a target="_blank" href="http://www.issabel.org">
+           <a target="_blank" href="http://www.cryptovoip.in">
                <img border="0" src="<?php echo $image; ?>"/>
            </a>
        </td>
@@ -53,7 +53,7 @@ $title         = isset($content['title'])?$content['title']:"";
     <?php echo $msg; ?>
   <div/>
   <br /><br />
-  <div align="center" class="copyright"><a href="http://www.issabel.org" target='_blank'>Issabel</a> is licensed under <a href="http://www.opensource.org/licenses/gpl-license.php" target='_blank'>GPL</a>. 2006 - <?php echo $currentYear; ?>.</div>
+  <!--<div align="center" class="copyright"><a href="http://www.cryptovoip.in" target='_blank'>CryptoVoIP</a> is licensed under <a href="http://www.opensource.org/licenses/gpl-license.php" target='_blank'>GPL</a>. 2006 - </div>-->
   <br />
 </body>
 </html>
